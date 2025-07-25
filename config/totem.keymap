@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp ESC       &bt BT_CLR    &kp UP        &kp EQUAL     &kp LBRC        &kp RBRC      &kp KP_N7     &kp KP_N8     &kp KP_N9     &kp KP_PLUS
-              &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp KP_MINUS
-&kp NUMBER_1  &kp DEL       &kp PG_UP     &kp CAPS      &kp PG_DN     &kp LPAR        &kp RPAR      &kp KP_N1     &kp KP_N2     &kp KP_N3     &kp KP_MULTIPLY  &trans
-                                          &trans        &trans        &trans          &mo ADJ       &kp KP_N0     &tog 4
+              &none         &none                  &none                      &none                    &kp LBRC        &kp RBRC      &none                     &none                       &none                   &kp KP_PLUS
+              &kp NUMBER_2  &mt LEFT_ALT NUMBER_3  &mt LEFT_CONTROL NUMBER_4  &mt LEFT_SHIFT NUMBER_5  &kp NUMBER_6    &kp NUMBER_7  &mt RIGHT_SHIFT NUMBER_8  &mt RIGHT_CONTROL NUMBER_9  &mt RIGHT_ALT NUMBER_0  &kp KP_MINUS
+&kp NUMBER_1  &none         &kp PG_UP              &kp CAPS                   &kp PG_DN                &kp LPAR        &kp RPAR      &kp KP_N1                 &kp KP_N2                   &kp KP_N3               &kp KP_MULTIPLY  &trans
+                                                   &trans                     &trans                   &trans          &mo ADJ       &kp KP_N0                 &tog 4
             >;
         };
 
@@ -138,8 +138,8 @@
 
             bindings = <
                  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp HASH        &kp PERCENT  &kp CARET    &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp LS(MINUS)
-                 &kp RA(A)         &bt BT_NXT        &bt BT_CLR_ALL  &trans       &trans       &kp C_MUTE        &kp LS(RA(N4))    &kp RA(N5)        &kp RA(N4)        &kp RA(O)
-&kp EXCLAMATION  &kp RA(F18)       &bt BT_PRV        &trans          &trans       &trans       &kp C_VOL_DN      &kp C_VOL_UP      &kp C_PREV        &kp C_NEXT        &kp BSLH       &trans
+                 &none             &bt BT_NXT        &bt BT_CLR_ALL  &trans       &trans       &kp C_MUTE        &none             &none             &none             &none
+&kp EXCLAMATION  &none             &bt BT_PRV        &trans          &trans       &trans       &kp C_VOL_DN      &kp C_VOL_UP      &kp C_PREV        &kp C_NEXT        &none          &trans
                                                      &trans          &gif         &mo ADJ      &trans            &kp C_PP          &trans
             >;
         };
@@ -175,7 +175,7 @@
         gaming_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
-            label = "TVP 1";
+            label = "GAME";
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
