@@ -110,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &none         &none                  &none                      &none                    &kp LA(NUMBER_8)    &kp RA(NUMBER_9)  &kp LEFT_BRACKET          &none                       &kp MINUS               &kp KP_PLUS
-              &kp NUMBER_2  &mt LEFT_ALT NUMBER_3  &mt LEFT_CONTROL NUMBER_4  &mt LEFT_SHIFT NUMBER_5  &kp NUMBER_6        &kp NUMBER_7      &mt RIGHT_SHIFT NUMBER_8  &mt RIGHT_CONTROL NUMBER_9  &mt RIGHT_ALT NUMBER_0  &kp KP_MINUS
-&kp NUMBER_1  &none         &none                  &none                      &none                    &none               &none             &none                     &none                       &none                   &kp KP_MULTIPLY  &trans
-                                                   &trans                     &trans                   &trans              &mo ADJ           &none                     &tog 4
+              &none         &none                   &none                      &none                    &kp RA(NUMBER_8)    &kp RA(NUMBER_9)  &kp LEFT_BRACKET          &none                       &kp MINUS               &kp KP_PLUS
+              &kp NUMBER_2  &mt RIGHT_ALT NUMBER_3  &mt LEFT_CONTROL NUMBER_4  &mt LEFT_SHIFT NUMBER_5  &kp NUMBER_6        &kp NUMBER_7      &mt RIGHT_SHIFT NUMBER_8  &mt RIGHT_CONTROL NUMBER_9  &mt RIGHT_ALT NUMBER_0  &kp KP_MINUS
+&kp NUMBER_1  &none         &none                   &none                      &none                    &none               &none             &none                     &none                       &none                   &kp KP_MULTIPLY  &trans
+                                                    &trans                     &trans                   &trans              &mo ADJ           &none                     &tog 4
             >;
         };
 
